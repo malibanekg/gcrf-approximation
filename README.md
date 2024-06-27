@@ -18,36 +18,25 @@ This repository contains the implementation of the models discussed in the paper
 
 ## Repository Structure
 - `Data_generation/`: Contains the source code for the enhanced GCRF model.
-- `data/`: Example datasets for testing the models.
-- `notebooks/`: Jupyter notebooks with examples and experiments.
-- `results/`: Folder to save the results of the experiments.
+- `GCRF_MSN - approx/`: 
+- `GCRF_MSN - approx2/`:
+- `GCRF_MSN - baseline/`:
+- `GCRF_MSN - proper_Jesse/`: 
 - `README.md`: This file.
 
 ## Installation
-To run the code, you need to have Python installed. You can install the required dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
-```
+To run the code, you need to have Matlab installed.
 
 ## Usage
 ### Running the Model
-To run the model on the provided datasets, use the following command:
+To run the models on the provided datasets, use the following command:
 
 ```bash
-python src/main.py --config configs/config.yaml
+run(runExperiments.m)
 ```
 
 ### Configuration
 The configuration file (`configs/config.yaml`) contains various parameters for running the model, including dataset paths, model parameters, and experiment settings.
-
-## Dependencies
-- Python 3.8+
-- numpy
-- scipy
-- pandas
-- networkx
-- matplotlib
 
 ## Examples
 Jupyter notebooks in the `notebooks/` directory provide examples of how to use the code. You can run these notebooks to understand the model's functionality and see the results on sample datasets.
@@ -55,17 +44,6 @@ Jupyter notebooks in the `notebooks/` directory provide examples of how to use t
 ## Results
 The `results/` folder contains the outputs of the experiments, including prediction accuracy and computational performance metrics.
 
-## Citation
-If you use this code or dataset in your research, please cite the paper:
-
-```bibtex
-@article{basic2024structured,
-  title={Further Results on Structured Regression for Multi-Scale Networks},
-  author={Bašić, Milan and Arsić, Branko and Obradović, Zoran},
-  journal={Journal of Machine Learning Research},
-  year={2024}
-}
-```
 
 ## Contact
 For any questions or issues, please contact:
