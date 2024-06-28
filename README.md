@@ -12,16 +12,17 @@ Gaussian Conditional Random Fields (GCRF) are structured regression models that 
 This repository contains the implementation of the models discussed in the paper "Further Results on Structured Regression for Multi-Scale Networks." The GCRF model has been enhanced to handle large networks more efficiently by performing calculations on factor graphs rather than on the full graph, using the Kronecker product of graphs for decomposition.
 
 ## Key Contributions
-1. **Enhanced GCRF Model:** Utilizes new estimations for Laplacian eigenvalues and eigenvectors to improve computational efficiency.
-2. **Kronecker Graph Product:** Applies the Kronecker product for graph decomposition, addressing the challenge of Laplacian spectrum characterization.
+1. **Kronecker Graph Product:** Applies the Kronecker product for graph decomposition, addressing the challenge of Laplacian spectrum characterization.
+2. **Enhanced GCRF Model:** Utilizes new estimations for Laplacian eigenvalues and eigenvectors to improve computational efficiency, since characterizing a
+Laplacian spectrum of the Kronecker product of graphs from its factor graphs spectra has remained an open problem.
 3. **Model Validation:** Demonstrates high prediction accuracy and computational efficiency on various random network types (random, scale-free, and small-world networks).
 
 ## Repository Structure
-- `Data_generation/`: Contains the source code for the enhanced GCRF model.
+- `Data_generation/`: Contains the source code for the random graph generation.
+- `GCRF_MSN - baseline/`: GCRF model implementation where the numerical eigendecompositon is performed (the highest regression accuracy is achieved).
+- `GCRF_MSN - proper_Jesse/`: An approximated GCRF model implementation was done on the basis of paper "J. Glass and Z. Obradovic. Structured regression on multiscale networks. IEEE Intelligent Systems, 32(2):23–30, 2017."
 - `GCRF_MSN - approx/`: 
-- `GCRF_MSN - approx2/`:
-- `GCRF_MSN - baseline/`:
-- `GCRF_MSN - proper_Jesse/`: 
+- `GCRF_MSN - approx2/`: 
 - `README.md`: This file.
 
 ## Installation
