@@ -19,7 +19,7 @@ Laplacian spectrum of the Kronecker product of graphs from its factor graphs spe
 
 ## Repository Structure
 - `Data_generation/`: Contains the source code for the random graph generation.
-- `GCRF_MSN - baseline/`: GCRF model implementation where the numerical eigendecompositon is performed (the highest regression accuracy is achieved).
+- `GCRF_MSN - baseline/`: GCRF model implementation where the numerical eigendecompositon is performed (the highest regression accuracy).
 - `GCRF_MSN - proper_Jesse/`: An approximated GCRF model implementation was done on the basis of paper "J. Glass and Z. Obradovic. Structured regression on multiscale networks. IEEE Intelligent Systems, 32(2):23–30, 2017."
 - `GCRF_MSN - approx/`: 
 - `GCRF_MSN - approx2/`: 
