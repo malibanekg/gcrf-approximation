@@ -1,7 +1,7 @@
 # Further Results on Structured Regression for Multi-Scale Networks
 
 ## Authors
-- Milan Bašić (Faculty of Sciences and Mathematics, University of Nǐs)
+- __Milan Bašić__ (Faculty of Sciences and Mathematics, University of Nǐs)
 - Branko Arsić (Faculty of Science, University of Kragujevac)
 - Zoran Obradović (Department of Computer and Information Sciences, Temple University)
 
