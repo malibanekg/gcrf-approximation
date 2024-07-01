@@ -1,9 +1,9 @@
 # Further Results on Structured Regression for Multi-Scale Networks
 
 ## Authors
-- __Milan Bašić__ (Faculty of Sciences and Mathematics, University of Nǐs)
-- Branko Arsić (Faculty of Science, University of Kragujevac)
-- Zoran Obradović (Department of Computer and Information Sciences, Temple University)
+- __Milan Bašić__ (_Faculty of Sciences and Mathematics, University of Niš_)
+- __Branko Arsić__ (_Faculty of Science, University of Kragujevac_)
+- __Zoran Obradović__ (_Department of Computer and Information Sciences, Temple University_)
 
 ## Abstract
 Gaussian Conditional Random Fields (GCRF) are structured regression models that achieve higher regression accuracy by considering the similarities between objects and outputs of unstructured predictors. However, GCRF models do not scale well with large networks. This paper introduces new estimations for Laplacian eigenvalues and eigenvectors to improve computational efficiency while maintaining high prediction accuracy. The proposed models achieve computational complexity improvements and are validated on three random network types, consistently outperforming previous structured models in accuracy.
