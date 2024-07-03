@@ -42,7 +42,6 @@ __Settings:__
 - **lines 62 to 69:** select the graph types (Erdos-Renyi, Barabasi-Albert, or Watts-Strogatz); commented numbers represent the number of edges in the networks (corresponding edge density levels are 10%, 30%, 50%, 60% and 80%, respectively).
 
 ## Examples
-Jupyter notebooks in the `notebooks/` directory provide examples of how to use the code. You can run these notebooks to understand the model's functionality and see the results on sample datasets.
 
 ## Results
 The `results/` folder contains the outputs of the experiments, including prediction accuracy and computational performance metrics.
