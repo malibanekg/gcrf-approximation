@@ -18,11 +18,11 @@ Laplacian spectrum of the Kronecker product of graphs from its factor graphs spe
 3. **Model Validation:** Demonstrates high prediction accuracy and computational efficiency on various random network types (random, scale-free, and small-world networks).
 
 ## Repository Structure
-- `Data_generation/`: Contains the source code for the random graph generation.
-- `GCRF_MSN - baseline/`: GCRF model implementation where the numerical eigendecompositon is performed (the highest regression accuracy).
-- `GCRF_MSN - proper_Jesse/`: An approximated GCRF model implementation was done on the basis of paper "J. Glass and Z. Obradovic. Structured regression on multiscale networks. IEEE Intelligent Systems, 32(2):23–30, 2017."
-- `GCRF_MSN - approx/`: An approximation for the spectrum of Laplacian matrix of Kronecker product of graphs is implemented according to the paper "H. Sayama. Estimation of laplacian spectra of direct and strong product graphs. Discrete Applied Mathematics, 205:160–170, 2016."
-- `GCRF_MSN - approx2/`: An approximation for the spectrum of Laplacian matrix of Kronecker product of graphs is implemented according to the paper "Bašić, M., Arsić, B., & Obradović, Z. Another estimation of Laplacian spectrum of the Kronecker product of graphs. Information Sciences, 609, 605-625, 2022"
+- __`Data_generation/`__: Contains the source code for the random graph generation.
+- __`GCRF_MSN - baseline/`__: GCRF model implementation where the numerical eigendecompositon is performed (the highest regression accuracy).
+- __`GCRF_MSN - proper_Jesse/`__: An approximated GCRF model implementation was done on the basis of paper "J. Glass and Z. Obradovic. Structured regression on multiscale networks. IEEE Intelligent Systems, 32(2):23–30, 2017."
+- __`GCRF_MSN - approx/`__: An approximation for the spectrum of Laplacian matrix of Kronecker product of graphs is implemented according to the paper "H. Sayama. Estimation of laplacian spectra of direct and strong product graphs. Discrete Applied Mathematics, 205:160–170, 2016."
+- __`GCRF_MSN - approx2/`__: An approximation for the spectrum of Laplacian matrix of Kronecker product of graphs is implemented according to the paper "Bašić, M., Arsić, B., & Obradović, Z. Another estimation of Laplacian spectrum of the Kronecker product of graphs. Information Sciences, 609, 605-625, 2022"
 - `README.md`: This file.
 
 ## Installation
