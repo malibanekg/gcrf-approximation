@@ -36,8 +36,10 @@ To run the models on the provided datasets, use the following command:
 run(runExperiments.m)
 ```
 
-### Configuration
-The configuration file (`configs/config.yaml`) contains various parameters for running the model, including dataset paths, model parameters, and experiment settings.
+__Settings:__
+
+- **lines 50 and 51:** set the numbers of nodes for the selected random graphs.
+- **lines 62 to 69:** select the graph types (Erdos-Renyi, Barabasi-Albert, or Watts-Strogatz); commented numbers represent the number of edges in the networks (corresponding edge density levels are 10%, 30%, 50%, 60% and 80%, respectively).
 
 ## Examples
 Jupyter notebooks in the `notebooks/` directory provide examples of how to use the code. You can run these notebooks to understand the model's functionality and see the results on sample datasets.
