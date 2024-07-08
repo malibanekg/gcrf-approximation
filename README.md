@@ -49,7 +49,7 @@ _n2 = 100;_
 
 ### Erdos-Renyi networks
 % Erdos-Renyi networks with 30% of edge density levels <br />
-_S1 = GenRandGraphFixedNumLinksER(n1,367);_<br />
+_S1 = GenRandGraphFixedNumLinksER(n1, 367);_<br />
 _S2 = GenRandGraphFixedNumLinksER(n2, 1485);_<br />
 
 ### Barabasi-Albert networks
