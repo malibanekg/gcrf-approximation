@@ -43,14 +43,14 @@ __Settings:__
 
 ## Examples
 
-% number of nodes for the graphs G and H
-n1 = 50;
+% number of nodes for the graphs G and H<br />
+n1 = 50;<br />
 n2 = 100;
 
 ### Erdos-Renyi networks
-%% Erdos-Renyi networks with 30% of edge density levels ----------
-S1 = GenRandGraphFixedNumLinksER(n1,367);
-S2 = GenRandGraphFixedNumLinksER(n2, 1485);
+%% Erdos-Renyi networks with 30% of edge density levels ----------<br />
+S1 = GenRandGraphFixedNumLinksER(n1,367);<br />
+S2 = GenRandGraphFixedNumLinksER(n2, 1485);<br />
 
 ### Barabasi-Albert networks
 %% Barabasi-Albert networks with 30% of edge density levels ----------
