@@ -44,23 +44,23 @@ __Settings:__
 ## Examples
 
 % number of nodes for the graphs G and H<br />
-__n1 = 50;__<br />
-__n2 = 100;__
+_n1 = 50;_<br />
+_n2 = 100;_
 
 ### Erdos-Renyi networks
-% Erdos-Renyi networks with 30% of edge density levels ----------<br />
-__S1 = GenRandGraphFixedNumLinksER(n1,367);__<br />
-__S2 = GenRandGraphFixedNumLinksER(n2, 1485);__<br />
+% Erdos-Renyi networks with 30% of edge density levels <br />
+_S1 = GenRandGraphFixedNumLinksER(n1,367);_<br />
+_S2 = GenRandGraphFixedNumLinksER(n2, 1485);_<br />
 
 ### Barabasi-Albert networks
-% Barabasi-Albert networks with 30% of edge density levels ----------<br />
-__S1 = generate_random_graph(n1, 'ba', 9, -1);__<br />
-__S2 = generate_random_graph(n2, 'ba', 18, -1);__<br />
+% Barabasi-Albert networks with 30% of edge density levels <br />
+_S1 = generate_random_graph(n1, 'ba', 9, -1);_<br />
+_S2 = generate_random_graph(n2, 'ba', 18, -1);_<br />
 
 ### Watts-Strogatz networks
-% Watts-Strogatz networks with 80% of edge density levels ----------<br />
-__S1 = generate_random_graph(n1, 'ws', 40, -1);__<br />
-__S2 = generate_random_graph(n2, 'ws', 80, -1);__<br />
+% Watts-Strogatz networks with 80% of edge density levels <br />
+_S1 = generate_random_graph(n1, 'ws', 40, -1);_<br />
+_S2 = generate_random_graph(n2, 'ws', 80, -1);_<br />
     
 ## Results
 The `results/` folder contains the outputs of the experiments, including prediction accuracy and computational performance metrics.
