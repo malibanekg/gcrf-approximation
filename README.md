@@ -44,7 +44,9 @@ __Settings:__
 ## Examples
 
 % number of nodes for the graphs G and H
+
 n1 = 50;
+
 n2 = 100;
 
 ### Erdos-Renyi networks
