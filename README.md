@@ -63,8 +63,7 @@ _S1 = generate_random_graph(n1, 'ws', 40, -1);_<br />
 _S2 = generate_random_graph(n2, 'ws', 80, -1);_<br />
     
 ## Results
-The `results/` folder contains the outputs of the experiments, including prediction accuracy and computational performance metrics.
-
+Please contact the authors of the paper for more details.
 
 ## Contact
 For any questions or issues, please contact:
